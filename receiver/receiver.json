@@ -1,0 +1,21 @@
+{
+  "devtools_port": 9090,
+  "runtime": {
+    "arguments": "--security-realm=RECEIVER --enable-mesh",
+    "version": "34.118.78.80"
+  },
+  "platform": {
+    "uuid": "receiver_uuid",
+    "providerUrl": "http://localhost:3000/receiver/provider.html",
+    "autoShow": false
+  },
+  "matrixSnapshot": {
+    "windows": [
+      {
+        "name": "receiver_window",
+        "url": "http://localhost:3000/receiver/receiver.html",
+        "fdc3InteropApi": "2.0"
+      }
+    ]
+  }
+}

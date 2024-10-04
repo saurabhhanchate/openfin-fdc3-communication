@@ -1,0 +1,21 @@
+{
+  "devtools_port": 9090,
+  "runtime": {
+    "arguments": "--security-realm=SENDER --enable-mesh",
+    "version": "34.118.78.80"
+  },
+  "platform": {
+    "uuid": "sender_uuid",
+    "providerUrl": "http://localhost:4200/sender/provider.html",
+    "autoShow": false
+  },
+  "matrixSnapshot": {
+    "windows": [
+      {
+        "name": "sender_window",
+        "url": "http://localhost:4200/sender/sender.html",
+        "fdc3InteropApi": "2.0"
+      }
+    ]
+  }
+}
